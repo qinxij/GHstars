@@ -1,0 +1,108 @@
+body {
+  font-family: "Siyuanheiti, "Helvetica Nenu", Helvetica, Arial, sans-serif";
+  font-weight: 300;
+  background: url(/images/bkg.jpg) repeat-x, url(/images/bkg2.gif);
+}
+
+h2, h3 {
+  font-family: 'Source Serif Pro', Siyuanheiti, serif;
+  font-weight: bold;
+}
+
+.navbar {
+  margin: 0;
+}
+
+.logo {
+  position: relative;
+  top: -10px;
+  width: 42px;
+  height: 42px;
+}
+
+.jumbotron {
+  background-color: rgba(0,0,0,0);
+  margin: 0;
+}
+
+.jumbotron h1, .jumbotron .sub-title {
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 300;
+}
+.jumbotron h1 {
+  font-weight: normal;
+  font-variant: small-caps;
+}
+.jumbotron .sub-title {
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+}
+
+
+.carousel {
+  margin-top: 128px;
+}
+
+.carousel img {
+  max-height: 560px;
+  margin: 0px auto;
+}
+.carousel-caption {
+}
+
+.features {
+  padding: 40px 0 60px 0;
+  background-color: #eee;
+  color: black;
+  margin: 0;
+
+  line-height: 1.8em;
+}
+
+.videos {
+  padding: 40px 0 60px 0;
+  /*background-color: rgba(51,92,123,.9);*/
+  /*background-color: rgb(40,44,52);*/
+  color: #eee;
+}
+.videoWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.video {
+  max-height: 560px;
+}
+
+.download {
+  padding: 40px 0 60px 0;
+  background-color: #eee;
+  color: black;
+  margin: 0;
+}
+.buttons {
+  text-align: center;
+  padding: 50px 0;
+}
+.btn-download {
+  background: url(/images/download.png) no-repeat;
+  display: inline-block;
+  height: 75px;
+  width: 252px;
+  margin: 0 auto;
+  color: rgba(0,0,0,0);
+}
+.btn-download:hover {
+  color: rgba(0,0,0,0);
+}
+.btn-download:visited {
+  color: rgba(0,0,0,0);
+}
+
+.footer {
+  text-align: center;
+  padding: 40px;
+}
