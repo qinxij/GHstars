@@ -1,7 +1,7 @@
 body {
   font-family: "Siyuanheiti, "Helvetica Nenu", Helvetica, Arial, sans-serif";
+  background: url(/images/bkg.jpg) repeat-x, url(/images/bkg2.gif);
   font-weight: 300;
-  background: url(/ghstars/images/bkg.jpg) repeat-x, url(/ghstars/images/bkg2.gif);
 }
 
 h2, h3 {
@@ -88,7 +88,7 @@ h2, h3 {
   padding: 50px 0;
 }
 .btn-download {
-  background: url(/ghstars/images/download.png) no-repeat;
+  background: url(/images/download.png) no-repeat;
   display: inline-block;
   height: 75px;
   width: 252px;
